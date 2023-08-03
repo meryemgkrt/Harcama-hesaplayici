@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sitil.css" />
+    <link rel="shortcut icon" 
+    href="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png">
+  
+    <title>Harcama Hesaplayıcı</title>
+  </head>
+  <body>
+    <h1 class="heading">Harcama Hesaplayıcı</h1>
+    <div class="container">
+      <h3 class="greet">
+        Hoşgeldin,
+        <input id="user-input" type="text" placeholder="İsminizi giriniz" />
+      </h3>
+      <form>
+        <div class="double">
+          <div class="form-field">
+            <label>Harcama: </label>
+            <input id="name-input" type="text" />
+          </div>
+          <div class="form-field">
+            <label>Fiyat:</label>
+            <input id="price-input" type="number" />
+          </div>
+        </div>
+        <div class="double" id="sec-double">
+          <div class="form-check-field">
+            <input id="status-check" type="checkbox" />
+            <label for="status_check">Ödendi</label>
+          </div>
+          <button id="add-btn">Ekle</button>
+        </div>
+        
+      </form>
+     <!-- Toplam alanı -->
+      
+       <div class="sum">
+        Topam Harcma <span id="sum-info">0</span> &#8378;
+       </div>
+       <!-- Filitreleme alanı -->
+       <select  id="filitre-selec">
+        <option value="all">Hepsi</option>
+        <option value="payed">Ödenenler</option>
+        <option value="not-payed">Ödenmeyenler</option>
+       </select>
+      <!-- Harcama alanı -->
+      <div id="list"></div>
+          <!--  -->
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

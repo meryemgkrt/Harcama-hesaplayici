@@ -1,3 +1,9 @@
+<h3>Harcama Hesaplayıci</h3>
+<p>Html, css ve Javascript kullanarak dinamik harcama hesaplayıci tasarladım.</p>
+
+![](/img/Animation.gif)
+
+
 <!-- Yapılacaklar -->
 # Yapılacaklar
 - Ekle butonuna tıklanıldığında imputların içerisine yazılanlara eriş ve alert ile ekrana yaz
@@ -25,3 +31,4 @@
 - == yanlzıca değer kontrolü yapar( 9 == "9" > true)
 - === hem tür hemde değer kontrolü yapar ( 9 === "9" > false)
 - - js tarafında ekelenen bir değeri elemaent olarak ekleyemiyoruz
+
